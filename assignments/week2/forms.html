@@ -1,21 +1,59 @@
 
 <form>
-    <input type="text"/>
+    <input type="text" disabled/>
     <input type="checkbox"/>
-    <input type="radio"/>
+    <input type="radio" disabled/>
     <input type="reset"/>   
     <input type="submit"/>
     <input type="button"/>
+    <input type="number" value="100"/>
     <textarea></textarea>
     <button>Turn off <br  />lights</button>
 </form>
 
+<h2>Example Inputs</h2>
+
 <form>
-    <label for="username">username:</label>
-    <input type="text" id="username"/>
-    <br>
-    <label for="password">password:</label>
-    <input type="text" id="password"/>
-    <br>
+<!--input element is the most commin way of acepting date from the user. Iput has many different "modes" that can selected using the type attribute-->
+    <label for="username">username</label>
+    <input type="text" id="username" />
+    <br/>
+    <label for="pasword">password</label>
+    <input type="text" id="password" />
+    <br/>
     <input type="submit"/>
 </form>
+
+<h2>Radio buttons & checkboxes</h2>
+
+<form>
+
+<p>Foods Choices</p>
+<input id="food" type="checkbox" name="food"/>
+<label>Pizza</label>
+<br />
+<input id="food" type="checkbox"name="food"/>
+<label>Sushi</label>
+<br />
+<input id="food" type="checkbox"name="food"/>
+<label>Burrito</label>
+<br/>
+
+<p>Destinations</p>
+<input type="radio" name="location" checked="checked"/> 
+<label>America</label>
+<br />
+<input type="radio"name="location"/>
+<label>Europe</label>
+<br />
+<input type="radio"name="location"/>
+<label>Asia</label>
+
+<h2>Time</h2>
+<input id="time1" type="radio" name="Time"/>
+<label for="time1">Now</label>
+<br />
+<input id="time1" type="radio" name="Time"/>
+<label for="time1">Later</label>
+</form>
+

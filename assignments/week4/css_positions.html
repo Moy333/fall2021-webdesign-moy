@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Postions</title>
+        <style>
+            #red, #green, #blue {
+                width: 200px;
+                height: 200px;
+                border-radius: 10px;
+            }
+            /*Fixed position will positon the elements by its "nearest scrolling ancestor", in most situantions the viewport. */
+            #red {
+                background-color: red;
+                position: absolute;
+                z-index: 1;
+            }
+            /*positions absolute allows the element to be position with coordinates(left, right, top, bottom) from the3 corner of the parent coantiner. REMOVES the element form the document flow*/
+            #green {
+                background-color: green;
+                position: absolute;
+                top: 100px;
+                left: 100px;
+                z-index: 10;
+            }
+            /*z-index allows us to hae finer control over what element will be ogver other elements baed on teh number its gien. A higher number witll put that element on top of other lejemts that have a lower z-index number. The default number is zero. */
+            #blue {
+                background-color:blue;
+                position: absolute;
+                top: 200px;
+                left: 200px;
+                z-index: -1;
+            }   
+            /*Sticky postion will first set an element to relative, once scroll touches eleent , it will swith to fixed position.*/
+        </style>
+    </head>
+
+    <body>
+
+    <div id="red"></div>
+
+    <div id="green"></div>
+    
+    <div id="blue"></div>
+
+    </body>
+</html>

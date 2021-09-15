@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Postions</title>
+        <style>
+            body {
+                margin: 10px;
+            }
+            #red, #green, #blue {
+                width: 200px;
+                height: 200px;
+                border-radius: 10px;
+            }
+            /*Relative position allows an element to be moved around using coordinates, but it is still part of the element flow. */
+            #red {
+                background-color: red;
+                position: relative;
+                left: -10px;
+                top: -10px;
+            }
+            #green {
+                background-color: green;
+            }
+            #blue {
+                background-color:blue;
+            }   
+        </style>
+    </head>
+
+    <body>
+
+    <div id="red"></div>
+
+    <div id="green"></div>
+    
+    <div id="blue"></div>
+
+    </body>
+</html>

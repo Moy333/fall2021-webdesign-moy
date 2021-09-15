@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+    <head>
+        <meta charset="utf-8"/>
+        <title>HTML Layout Template</title>
+
+        <style>
+            body {
+                background-color: whitesmoke;
+                margin: 0;
+            }
+            #container {
+                background-color: gray;
+                width: 900px;
+                /*Auto for margin will split any free space and give it to whatever sides have auto described for them. Thsi will only work on horizinal marging.*/
+                margin-left: auto;
+                margin-right: auto;
+                /*When a container has children and these children have mirgins, the parents igonore this margings and will be "outside". To fix this, apply overflow auto to the parent. This will force the parent to also include children's margins to be inside its borders.*/
+                overflow: auto;
+            }
+            h1{
+                font-size: 72px;
+                text-align: red;
+            }
+            #header, #main, #footer {
+                background-color: white;
+                margin-right: 10px;
+            }
+            #header {
+                overflow: auto;
+                text-align: center;
+            }
+
+            #main {
+                height: 700px;
+            }
+
+            #footer {
+                height: 100px;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="container">
+
+            <header>
+                <h1>Webpage Title</h1>
+                <p>Subtext</p>
+            </header>
+
+            <div id="header">
+                
+            </div>
+
+            <div id="main">
+            </div>
+
+            <div id="footer">
+                <p>Copywright &copy 2021 Moy Valencia</p> 
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

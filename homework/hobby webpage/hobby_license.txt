@@ -1,0 +1,60 @@
+Homework4-2
+
+	Briefing
+For this homework, you will create and collect images that will help your reader guide them through your instructions for your hobby.
+
+	Second Paragraph
+During the second paragraph of your hobby page you should have explained how to get started with your hobby and have provided instructions, possibly as a list. Read through your instructions and decide how an image can help you describe that step. Take at a minimum, three images with your camera, smartphone, or webcam. If you do not have these, please borrow one from your family or friends for this assignment. Keep the following tips in mind:
+
+Example photos can be: A collection of starting tools and materials, completed or in-progress projects, and showing a complex process through a single photo or set of photos.
+
+	Photo Library
+
+hobby webpage\hobby_images\centerkitchenislandbefore
+
+hobby webpage\hobby_images\cloudlamp
+
+hobby webpage\hobby_images\cloudlampclose
+
+hobby webpage\hobby_images\collageart2
+
+hobby webpage\hobby_images\fridaframe
+
+hobby webpage\hobby_images\goldwallbefore2
+
+hobby webpage\hobby_images\ipadmackup3
+
+hobby webpage\hobby_images\kitchencountercolor
+
+hobby webpage\hobby_images\kitchenpano
+
+hobby webpage\hobby_images\kitchenorginal
+
+hobby webpage\hobby_images\hobby webpage\hobby_images\
+	
+	3 Image Search Library
+Please find at a minimum, three images found on the Internet that will help you describe your hobby. You will also be searching for three images on the Internet to be used on your hobby web page. When searching for these images you will need to pay special attention to the license of that image. You cannot take an image, provide credits, and call it a day; you need written permission to use every image that is not yours. Image licenses can count as written permission based on what the license states.
+
+	1.https://pin.it/Bfezvps
+	2.https://pin.it/5cpIWiR
+	3.https://gardentabs.com/wp-content/uploads/2019/02/PIN-What-is-a-Moss-Wall-and-You-Can-Create-One-in-5-Easy-Steps-333x500.jpg
+
+	External Sources
+https://www.pinterest.com/moy333/furniture-makeover-ideas/
+https://www.pinterest.com/moy333/home-kitchen-remodeling/
+https://www.pinterest.com/moy333/home-design/
+
+	Create
+Create a file “hobby_license.txt”.
+
+	Name Photos
+Inside this file, type in the image file name. 
+	
+	Description
+Below each image file name, paste in a link to the image license, or file name of the license file.
+
+	Instructions
+Homework Submission	
+Make sure to place all files in a folder called “hobby_images” inside of your homework folder.
+
+Add, commit, and push your repository by Wednesday 15, 2021 11:59PM

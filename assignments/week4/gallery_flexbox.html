@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Gallery Using Flexbox</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            main {
+                background-color: rgb(233, 236, 208);
+            }
+            /*Flebox is a display mode, the word SHOULD BE "flex" NOT "flexbox"
+            
+            flex-wrap says whether the flexbox is allowed to wrap its children when there is not enought width. The default is "nowrap".
+            Flex-drection will tell the floxbox how tho order the chldren AND which side of the flexbox the children start from.
+            */
+
+
+            #gallery-box {
+                display: flex;
+                border: 5px solid white;
+                /*width: 900px;*/
+                margin: 0 auto;
+                flex-direction: row;
+                flex-wrap: nowrap;
+            }
+            /*flex-basis is the "starting point" for the child's width. 
+            
+            Flex-grow dictates how much of the free space the child can get. This unit is relatie and similar to a ratio. The free space in the flxbos will be split up by the TOTAL amount of the flex-grow units, and then will be assigned to the children.
+            
+            Flex-shrink dictates how much width the child has to sacrifice in order to display within the allowed parent width, the unit is similar to flex-grow. Note that this does not work when the children are wrapped by flex-wrap.
+
+            overflow: hideen says that if any children of the oaprent is outside of the parent container, that area is automatically hideen from view. 
+            */
+
+            .image-box {
+                height: 400px;
+                border: rgb(70, 61, 49) 1px solid;
+                margin: 10px;
+                flex-basis: 200px;
+                flex-grow: 1;
+                flex-shrink: 1;
+                overflow: hidden;
+            }
+            #third-image {
+                flex-grow: 2;
+                flex-shrink: 2;
+            }
+            .image-box img {
+                width: 100%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="container"
+        <header>
+            <h1>My Favorite Gallery</h1>
+        </header>
+
+    <main>
+
+        <div id="gallery-box">
+            <div class="image-box">
+                <img src="images/pexels-atbo-245208.jpg"/></div>
+
+            <div class="image-box">
+                <img src="images/pexels-designecologist-1248582.jpg"/></div>
+            
+            <div class="image-box">
+                <img src="images/pexels-dmitry-zvolskiy-2082092.jpg"/></div>
+
+            <div class="image-box">
+                <img src="images/pexels-tatiana-syrikova-3932930.jpg"/></div>
+        </div>
+
+    </main>
+
+        <footer>
+            <p>Copyright hep by respective owners</p>
+        </footer>
+    </div>
+    </body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"
+
+<head>
+    <meta charset="utf-8"
+    <title>CSS Grids</title>
+
+    <style>
+/*VH is a RELATIVE unit, 100vh means 100% of the viewport height*/
+        body {
+            height: 10vh;
+            margin: 0;
+        }
+/*gird-template-columns and grid-template-rows desribe how many columns and rows the grid will hae as well as how much space each row/column will have. fr unit is a fractiona unit, very very smimilar to CSS flexbos grow and shrink units*/
+
+        #container {
+            border: solid black 5px;
+            height: 600px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 2fr 1fr;
+        }
+        #child1 {
+            background-color: rgba(30, 143, 255, 0.335);
+            grid-column-start: 1;
+            grid-column-end: 6;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        #child2 {
+            background-color: rgba(205, 92, 92, 0.397);
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+        #child3 {
+            background-color: rgba(144, 238, 144, 0.349);
+            grid-column-start: 5;
+            grid-column-end: 6;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+        #child4 {
+            background-color: rgba(221, 160, 221, 0.363);
+            grid-column-start: 1;
+            grid-column-end: 6;
+            grid-row-start: 5;
+            grid-row-end: 6;
+        }
+    </style>
+</head>
+
+    <body>
+        
+        <div id="container">
+            <div id="child1">                
+                <p>Child1</p>
+            </div>
+
+            <div id="child2">
+                <p>Child2</p>
+            </div>
+
+            <div id="child3">
+                <p>Child3</p>
+            </div>
+
+            <div id="child4">
+                <p>Child4</p>
+            </div>
+
+    </body>
+
+</html>

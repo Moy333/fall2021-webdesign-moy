@@ -1,0 +1,77 @@
+Color Template
+	Background Color: #ffffff
+
+-Header
+Get your boooks and office in order today. 
+As a former small business owner, I remember bividly the challenges of being able to ilot offers the best bookkeeping, tax, and CFO services for growing businesses.
+Let me manage the mundane business administration so you can focus on your business.
+
+PORTAFOLIO WEBPAGE LAYOUT:
+
+Body of Contents:
+
+ABOUT ME page (home page) 
+	Introduction: LET ME ASSIST YOU! Call today to schedule a free initial consulation to discuss a plan tailor to your needs and budget. 
+
+	First Paragraph:
+	As a former small business owner my self, I remember vividly the chanllenges of managing the mundane day to day task. Bookkeeping. Research, Contract negotiation, permits, office equipment research purchase and basic troubleshooting. 
+
+	Secong Paragraph:
+I always wished I had help but couldn't afford to hire skilled people 	
+I have a very extensive and broad CV. I’m a bilingual Spanish native 	speaker with some entrepreneurial experience in international 	business and the hospitality industry as a partner in my own business. I bring more than 15 years of experience using pretty much every version of QuickBooks and about 6 years as an independent contractor assisting small business owners on their day to day operations.
+
+	SERVICES page
+	Paragraph 1
+	Bookkeeping: Full charge services thru QuickBooks including payroll and contractors for a small company. Day to day data entry Band and credit card reconcilliation
+
+	Accounts payables: Chart of Accounts analysis to identify categories for posible alternative services. I can handle most vendor relations and 	contract negotiation, research and cost analysis of services and products with the goal to save your company in expenses and maximise profatibility.
+
+	HR Acquainted with the California labor law and HR requirements including onboarding and termination for employees and contractors.I am also familiar with drafting and interpretation of legal business documents and most permits and goverment entities to help you stay in compliance with the requirement of doing business in San Francisco and day to day operatons. 
+
+	Administraiton: I take charge of overseeing the research and installation of new office equipment including the upgrade and maintenance of computers, credit cards, telephones and most office equipment. 
+	
+	Marketing and Design:
+	I can help with the creating of logos, stationary, letterhead, business cards. I can also create and mantaing your website. 
+
+	Translation Services: I have assisted several business with document translation as well as an interpreter.  
+
+CONTACT page
+	Paragraph One: Availability: Any day, Any time: I will work around your schedule for errands, phone calls, delivery and any last minute or urgent matter.
+		Moises Valencia
+		ph: 415.823.4525
+		e: moyvalencia@comcast.net
+		web: BusinessAssistant247.com
+		hour: Any day, any time.
+
+-Elements color codes:
+	
+	Text Color: 	  #394d55, #c3b199
+	Link Color: 	  #3e7d98
+	Secondary Color:  #ac4a00
+	Accent color:	  #b5b5b5
+
+	BLUE This color stands true to its appearance. Peaceful, calm and gentle, blue has tremendous power to manage stress
+
+	GREEN Green is a restful and quiet color. Because it symbolizes nature, green is one of the most beautiful and comforting colors that attracts harmonious feelings that can diffuse
+	#3e7d98 Green Blue
+
+	low hue of PINK, greayish white is another color that promotes tranquility and peace. In fact, Feng Shui believes pink soothes various energies in a room and keep them understated
+	Contrasting color for Written Content: 
+	
+	WHITE White symbolizes clarity and freshness. It is the right color to be surrounded with in times of stress, to get clarity of your thoughts
+	
+
+-Images
+	portrait
+
+-Link text
+
+-Fonts Google Fonts:
+	Roboto Light:
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?	family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+-Icons FontAwesome
+
+

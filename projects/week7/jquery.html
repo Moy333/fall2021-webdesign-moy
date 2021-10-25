@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>JQuery Intro</title>
+
+    <script src="jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <script>
+    // jQuery(); This name is the same function as $().
+    // Selects all p elements using jQuery
+    
+    $("p");
+    // Selects all p elements using JavaScript DOM
+    document.getElementsByTagName ("p");
+
+    // Select an element with ID "anID" using jQuery.
+    $("#andID");
+
+    // Select an element with ID "anID" using JavaScript DOM
+    document.getElementById ("anID")
+
+    // Wait for the HTML to fully load before running code inside of the "ready" function. 
+    // 
+
+    $(document).ready(function () {
+        
+        $("body").append("<h1>" Welcome to my webpage </h1>)
+    });
+    
+    </script>
+
+
+</body>
+
+</html>

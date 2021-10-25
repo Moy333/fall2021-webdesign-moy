@@ -1,0 +1,27 @@
+
+Monday:
+CSS Grids
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://cssgridgarden.com/
+
+
+Tuesday:
+Google Fonts Service
+https://fonts.google.com/
+
+CSS @import
+
+Wednesday:
+Binary numbers and how they are stored on computers
+Hexadecimals number
+Measuring units for storage and speed
+Response time or latency
+Pixels (Red Green Blue)
+Dimension of images (pixels on width by pixels on height)
+
+
+Thursday:
+Image Size (File Size) vs Image Dimensions (Pixel width by Pixel height).
+Example uses: Background image for webpage
+
+https://www.pexels.com/photo/photo-of-new-york-city-cityscape-2404843/

@@ -1,0 +1,40 @@
+div.menu {
+    background-color: bisque;
+    height: 30px;
+    width: 80px;
+    border: 5px solid rgb(165, 104, 29);
+    float: left;
+    margin: 20px;
+}
+div#first {
+    background-color: blue;
+    
+}
+div#second {
+    background-color: brown;
+}
+.box-one {
+    background-color: azure;
+    padding: 20px;
+    border: 0 solid pink;
+}
+.box-two {
+    background-color: beige;
+}
+
+.topnav {
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a.active {
+    background-color: #04aa6d;
+    color: white;
+}

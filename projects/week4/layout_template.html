@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+    <head>
+
+        <meta charset="utf-8"/>
+        <title>HTML Layout Template</title>
+
+        <style>
+            body {
+                    margin: 0;
+            }
+    
+            #container {
+                background-color: rgb(176, 246, 240);
+                width: 900px;
+                /*Auto for margin will split any free space and give it to whatever sides have auto described for them. Thsi will only work on horizinal marging.*/
+                margin-left: auto;
+                margin-right: auto;
+                /*When a container has children and these children have mirgins, the parents igonore this margings and will be "outside". To fix this, apply overflow auto to the parent. This will force the parent to also include children's margins to be inside its borders.*/
+                overflow: auto;
+            }
+            h1{
+                font-size: 72px;
+            }
+
+            header, main, footer {
+                background-color: rgb(238, 226, 226);
+                margin: 25px;
+            }
+            
+            header {
+                overflow: auto;
+                text-align: center;
+            }
+
+            /* Containers should NOT have a height, the height will generally be controlled by the content/children. */
+            
+            main {
+                height: 700px;
+            }
+
+            footer {
+                height: 100px;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="container">
+
+            <!-- header, main, and footer ELEMENTS are html5 elements. These are exactly like the div elements except with semantic value. -->
+
+            <header>
+                <h1>Webpage Title</h1>
+                <p>Subtext</p>
+            </header>
+
+            <main>
+
+
+            </main>
+                
+            </div>
+
+            <footer>
+
+            <p>Copyright &copy; 2021 Moy Valencia</p>
+            </footer>
+
+            
+        </div>
+
+    </body>
+
+</html>
